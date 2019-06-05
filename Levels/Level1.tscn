@@ -154,3 +154,6 @@ tile_data = PoolIntArray( -262146, 0, 0, -262145, 0, 2, -327613, 0, 0, -327612, 
 [node name="Blob" parent="Level" instance=ExtResource( 4 )]
 position = Vector2( 321.873, 83.455 )
 
+[node name="Blob2" parent="Level" instance=ExtResource( 4 )]
+position = Vector2( 152.939, 173.325 )
+
