@@ -15,7 +15,7 @@ onready var area = $Area2D
 func _ready():
 	pass
 
-
+#Kommentar
 func _physics_process(delta):
 	for body in area.get_overlapping_bodies():
 		if body.name == \"Player\" and Input.is_action_just_pressed(\"up\"):
@@ -38,4 +38,3 @@ texture = ExtResource( 1 )
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 position = Vector2( 0, -1 )
 shape = SubResource( 2 )
-
